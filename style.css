@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+    font-size: 14px;
+    font-family: El Messiri;
+    color: white;
+    height: 100%;
+}
+body h1 {
+    font-size: 64px;
+    line-height: 89.6px;
+    font-weight: 700;
+}
+body h2 {
+    font-size: 42px;
+    line-height: 58px;
+    font-weight: 700;
+}
+body h3 {
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 700;
+}
+#wrapper {
+    background-color: #162831;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+header {
+    margin-bottom: 70px;
+}
+@media (max-width: 1094px) {
+    .header_container {
+        max-width: 950px;
+    }
+    .main_block {
+        max-width: 950px;
+        max-height: 400px;
+    }
+    .menu_list .menu_link {
+       font-size: 10px;
+       margin-right: 25px;
+    }
+}
+@media (max-width: 794px) {
+    .menu_link {
+        display: none;
+    }
+    .main_block {
+        max-width: 647px;
+        max-height: 300px;
+    }
+    .logo {
+        max-width: 40px;
+        max-height: 40px;
+        margin-left: 70px;
+    }
+}
+@media (max-width: 711px) {
+   .media_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .media_block_fat_item {
+    display: flex;
+    flex: 0 0 300px;
+    max-height: 250px;
+   }
+   .media_block_small_item {
+    display: flex;
+    max-width: 300px;
+    max-height: 250px;
+   }
+}
+@media (max-width: 604px) {
+    .main_block {
+        max-width: 447px;
+        max-height: 190px;
+    }
+    .main_block h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .main_block h3 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .subtitle h2 {
+        font-size: 30px;
+    }
+}
+.header_container {
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    max-width: 1296px;
+    min-height: 110px;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.menu_list {
+    display: flex;
+}
+.menu_link {
+    margin-right: 50px;
+}
+.header_menu {
+    flex: 1 1 auto;
+}
+.menu a {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: white;
+}
+.menu a:hover {
+    color: #018ABE;
+    transition: all 0.3s ease 0s;
+}
+.header_button {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    display: inline-block;
+    padding: 9px 15px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+}
+.button_blue {
+    background-color: #018ABE;
+    color: white;
+}
+.button_blue:hover {
+    background-color: #1d6480;
+    transition: all 0.3s ease 0s;
+}
+.main_block {
+    background-image: url(img/main-img.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1256px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0 15px;
+}
+.subtitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.media_block {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0 auto;
+    max-width: 1296px;
+}
+.media_block_fat {
+    display: flex;
+    flex-direction: column; 
+    flex-basis: 30%;
+    margin-bottom: 24px;
+}
+.media_block_small {
+    display: flex;
+    flex-direction: column; 
+    flex-basis: 30%;
+}
+.media_block_fat_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    padding: 15px;
+    background-image: url(img/media-img.svg);
+    flex: 1;
+    border-radius: 10px;
+    
+}
+.media_block_small_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    padding: 15px;
+    background-image: url(img/media-img.svg);
+    flex: 0 0 250px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.reviews {
+    display: flex;
+    justify-content: center;
+  }
